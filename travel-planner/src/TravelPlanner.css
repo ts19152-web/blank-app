@@ -1,0 +1,60 @@
+.planner {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  font-family: sans-serif;
+}
+
+.planner-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.planner-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-weight: bold;
+}
+
+.planner-form input,
+.planner-form textarea {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.planner-form textarea {
+  min-height: 72px;
+}
+
+.planner-form button {
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background: #2b6cb0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.planner-form button:disabled {
+  background: #999;
+  cursor: wait;
+}
+
+.planner-error {
+  color: #c53030;
+}
+
+.planner-result {
+  margin-top: 24px;
+  padding: 16px;
+  white-space: pre-wrap;
+  font-family: inherit;
+  line-height: 1.6;
+  background: #f7f7f7;
+  border-radius: 6px;
+}
